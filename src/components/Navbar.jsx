@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="backdrop-blur-md bg-white/80 shadow-md fixed top-0 left-0 w-full px-6 py-4 flex justify-between items-center z-50">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 text-xl font-bold text-gray-800">
-          <span className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-2 py-1 rounded-md shadow">SR</span>
+          <img src="/sarkari-exam-logo.png" alt="Sarkari Exam Logo" style={{ width: '48px', height: '48px', borderRadius: '50%' }} />
           <span className="hidden sm:inline tracking-wide">Sarkari Result</span>
         </a>
 
