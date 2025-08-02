@@ -45,10 +45,10 @@ const Navbar = () => {
             <li key={link.label}>
               <a
                 href={link.href}
-                className={`px-2 py-1 transition-all duration-200 border-b-2 ${
+                className={`px-2 py-1 transition-all duration-200 border-b-2 transform hover:scale-120 hover:scale-125 hover:text-blue-600 hover:border-blue-600 ${
                   link.active
                     ? 'text-blue-600 border-blue-600 font-semibold'
-                    : 'border-transparent hover:text-blue-600 hover:bg-blue-50 hover:border-blue-600'
+                    : 'border-transparent'
                 }`}
               >
                 {link.label}
@@ -86,8 +86,8 @@ const Navbar = () => {
             <li key={link.label}>
               <a
                 href={link.href}
-                className={`block px-3 py-2 rounded-md transition-all duration-150 ${
-                  link.active ? 'text-blue-600 bg-blue-50' : 'hover:bg-blue-50 hover:text-blue-600'
+                className={`block px-3 py-2 rounded-md transition-all duration-150 transform hover:scale-120 hover:scale-125 hover:text-blue-600 hover:bg-blue-50 ${
+                  link.active ? 'text-blue-600 bg-blue-50' : ''
                 }`}
                 onClick={() => setMenuOpen(false)}
               >
