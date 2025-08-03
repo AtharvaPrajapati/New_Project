@@ -4,9 +4,11 @@
 body {
   margin: 0;
   font-family: 'Inter', 'Segoe UI', 'Roboto', Arial, sans-serif;
-  background: linear-gradient(120deg, #f6f8fa 60%, #e3e9f7 100%);
   color: #222;
   overflow-x: hidden;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .app-container {
